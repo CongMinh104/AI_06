@@ -1,4 +1,3 @@
-
 import tkinter as tk
 from tkinter import font
 from PIL import Image, ImageTk
@@ -52,6 +51,8 @@ class Game:
         This part is mostly UI
         """
         #Function to load images into the game, extra things. 
+        #We have added some images, however, to run them, you should download the images from our GitHub, they are placed there already. After that, change the path to the image saved in your folder.
+        # Note: This is just optional, code run just fine without the images.
         try:
             self.win_image = ImageTk.PhotoImage(Image.open('C://Users//anugr//Downloads//Win.jpg'))
         except Exception as e:
