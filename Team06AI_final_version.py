@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
 
 import tkinter as tk
 from tkinter import font
@@ -445,17 +440,15 @@ class Game:
         for button in self.multiplier_buttons:
             button.config(state=tk.NORMAL)
 
-        # Reset game tree
+ 
         self.game_tree = GameTree()
         self.current_node = None
 
-# Create the main window
 root = tk.Tk()
 game = Game(root)
 root.mainloop()
 
 
-# In[ ]:
 
 
 
